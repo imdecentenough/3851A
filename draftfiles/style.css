@@ -14,10 +14,14 @@ body{
     margin: 0;
     background-color: #202020;
 }
+#headerElements{
+    margin-left: 8%;
+    margin-right: 8%;
+    grid-template-columns: auto auto auto auto auto;
+}
 #headerSection{
     background-color: #000;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
     padding-top: 15px;
     height: 90px;
 }
